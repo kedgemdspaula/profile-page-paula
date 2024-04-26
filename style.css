@@ -1,0 +1,132 @@
+/* Write some CSS below */
+
+body{
+    text-align: center;
+    color: gray;
+    background-color:#FFEBF6 ;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1) ;
+    margin: 25px;
+    padding: 40px;
+    text-align: center;
+    list-style: center;
+}
+
+
+h2 {
+        font-family:"Jersey 25", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #FAAFBA;
+    }
+
+h1 {
+        font-family:"Jersey 10", sans-serif;
+        letter-spacing: 2px;
+        font-size: 50px;
+        font-weight: 400;
+        color: #FAAFBA;
+    
+    }
+
+h3 {
+    font-family:"Jersey 10", sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #FAAFBA;
+
+}
+
+
+.img-circle {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.btn-pink{
+    background-color: #FFEBF6;
+    color: rgb(128, 115, 123);
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.btn-pink:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 25px;   
+}
+
+p#introduction {
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline li i {
+    font-size: 40px;
+    color: black;
+    margin: 20px;
+}
+
+.list-inline li i:hover{
+    opacity: 0.7;
+}
+
+.card-loisirs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.img-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    object-fit: cover;
+}
+ 
+.img-container img:hover {
+    transform: scale(1.1);
+}
+
+#titre {
+    transition: 0.5s;
+}
+
+#titre:hover {
+    transform: scale(1.5);
+}
